@@ -1,0 +1,97 @@
+.wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.title {
+    font-size: 3rem;
+    color: var(--base-primary);
+    margin-bottom: 1rem;
+    font-weight: 800;
+}
+
+.subtitle {
+    font-size: 1.25rem;
+    color: var(--text-muted);
+    margin-bottom: 4rem;
+    line-height: 1.6;
+}
+
+.section {
+    margin-bottom: 4rem;
+}
+
+.sectionTitle {
+    font-size: 1.5rem;
+    color: var(--accent);
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+    border-bottom: 2px solid var(--border);
+    padding-bottom: 0.5rem;
+    display: inline-block;
+}
+
+.text {
+    color: var(--text);
+    line-height: 1.8;
+    font-size: 1.05rem;
+}
+
+.item {
+    margin-bottom: 2rem;
+}
+
+.itemHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 0.25rem;
+}
+
+.role {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--base-primary);
+}
+
+.date {
+    font-size: 0.9rem;
+    color: var(--text-muted);
+    font-feature-settings: "tnum";
+}
+
+.company {
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--text);
+    margin-bottom: 0.75rem;
+}
+
+.list {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+    color: var(--text-light);
+}
+
+.list li {
+    margin-bottom: 0.5rem;
+    line-height: 1.6;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+}
+
+.skill {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    color: var(--primary-light);
+    padding: 0.5rem 1rem;
+    border-radius: 2rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+}

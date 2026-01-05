@@ -1,0 +1,93 @@
+.wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.title {
+    font-size: 2.5rem;
+    color: var(--base-primary);
+    margin-bottom: 0.5rem;
+    font-weight: 800;
+}
+
+.description {
+    color: var(--text-muted);
+    margin-bottom: 3rem;
+    font-size: 1.1rem;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 2rem;
+}
+
+.inputGroup {
+    margin-bottom: 2rem;
+}
+
+.inputGroup label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    color: var(--text);
+    font-size: 0.9rem;
+}
+
+.input {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid var(--border);
+    border-radius: 0.5rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    background: var(--background);
+    color: var(--text);
+    margin-top: 0.5rem;
+}
+
+.input:focus {
+    outline: none;
+    border-color: var(--accent);
+    box-shadow: 0 0 0 2px rgba(217, 119, 6, 0.1);
+}
+
+.range {
+    width: 100%;
+    height: 6px;
+    background: var(--border);
+    border-radius: 3px;
+    appearance: none;
+    cursor: pointer;
+    margin-top: 0.5rem;
+}
+
+.range::-webkit-slider-thumb {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: var(--base-primary);
+    cursor: pointer;
+    transition: transform 0.1s;
+}
+
+.range::-webkit-slider-thumb:hover {
+    transform: scale(1.2);
+}
+
+.result {
+    font-size: 3rem;
+    font-weight: 800;
+    background: linear-gradient(135deg, var(--base-primary) 0%, var(--accent) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 1rem 0;
+}
+
+.note {
+    color: var(--text-muted);
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+}
